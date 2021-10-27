@@ -21,7 +21,54 @@ class _TimeLinePageState extends State<TimeLinePage> {
           physics: BouncingScrollPhysics(),
           scrollDirection: Axis.vertical,
           children: [
-
+          Container(
+            color: Colors.red,
+            height: size.height,
+            width: size.width,
+            child: Center(
+              child: Text(
+                "Привет###",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 35.0,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+          ),
+             Container(
+            color: Colors.blue,
+            height: size.height,
+            width: size.width,
+            child: Center(
+              child: Text(
+                "Пока!&&!!&!&!&",
+                style: TextStyle(
+                  color: Colors.pink,
+                  fontSize: 35.0,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.green,
+            height: size.height,
+            width: size.width,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Пока!&&!!&!&!&",
+                   style: TextStyle(
+                    color: Colors.pink,
+                    fontSize: 35.0,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ],
+            )
+          )
           ],
         ), 
       ),
